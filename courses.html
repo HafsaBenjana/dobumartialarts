@@ -6,6 +6,7 @@
     <link rel="icon" type="image/x-icon" href="logo.png">
 </head>
 <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
     body{
         /*background-image: url('background.jpg')*/;
@@ -112,28 +113,34 @@ header {
         margin: 10px 0;
         }
 
-    footer {  
 
+            .fa-facebook {
+          background: #3B5998;
+          color: white;
+        }
+
+        .fa-twitter {
+          background: #55ACEE;
+          color: white;
+        }
+
+        .fa-google {
+          background: #dd4b39;
+          color: white;
+        }
+        footer{
+            text-align: center; 
             position: relative;  
-            left: 10px;  
-            bottom: 5px;  
-            right: 10px;  
-            width: 100%;  
-            background-color: gray;  
-            color: white;  
-            text-align: center;  
-            display: inline;
-            }
+        }
 </style>
 
     <header>
-        <img src="logo.png" width="100" height="100">;
+        <img src="logo.png" width="100" height="100">
         <nav class="topnav">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a class="active" href="courses.html">Courses</a>
             <a href="contact.html">Contact</a>
-            <button class="btnLogin-popup">Login</button>
         </nav>
 </header>
 <div class="courses">
@@ -169,9 +176,11 @@ header {
     </div>
       
   </div>
-  <div class="footer">  
-    @Copyright Anusha Asim HND Unit 13: Website Design and Development  - All Right Reserved.   
-</div>
 
+<footer>
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den" class="fa fa-twitter"></a>
+    <a href="https://www.google.com/" class="fa fa-google"></a>
+    </footer>
 </body>
 </html>

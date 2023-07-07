@@ -6,9 +6,10 @@
     <link rel="icon" type="image/x-icon" href="logo.png">
 </head>
 <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
     body{
-        /*background-image: url('background.jpg')*/;
+        /*background-image: url('background.jpg')*/
         background-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,1)),url('https://live.staticflickr.com/2323/2376183126_ff2d34f5c3_b.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -234,17 +235,33 @@ label.fcf-label {
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
     width: 100%;
 }
+.fa-facebook {
+          background: #3B5998;
+          color: white;
+        }
 
-               </style>
+        .fa-twitter {
+          background: #55ACEE;
+          color: white;
+        }
+
+        .fa-google {
+          background: #dd4b39;
+          color: white;
+        }
+        footer{
+          position: fixed;
+          padding-left: 650px;
+        }
+    </style>
 
     <header>
-        <img src="logo.png" width="100" height="100">;
+        <img src="logo.png" width="100" height="100">
         <nav class="topnav">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="courses.html">Courses</a>
             <a class="active" href="contact.html">Contact</a>
-            <button class="btnLogin-popup">Login</button>
         </nav>
 </header>
 <div class="fcf-body">
@@ -252,37 +269,14 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     <div id="fcf-form">
     <h3 class="fcf-h3">Contact us</h3>
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfRhLB_XI41ynOTdq4MAzaR3GuAS81rkcXSR2x_U0ZxJt-QwQ/viewform?embedded=true" width="640" height="744" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-<!--    <form id="fcf-form-id" class="fcf-form-class" method="post" action="mailto:hafsa.benjana@edu.regenteducation.ae" enctype="text/plain">
-        
-        <div class="fcf-form-group">
-            <label for="Name" class="fcf-label">Your name</label>
-            <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Your email address</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-            </div>
-        </div>
-
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-        </div>
-
-    </form>-->
     </div>
 
 </div>
+<footer>
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den" class="fa fa-twitter"></a>
+    <a href="https://www.google.com/" class="fa fa-google"></a>
+    </footer>
 
 </body>
 </html>
